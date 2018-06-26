@@ -18,6 +18,7 @@
       if ((itemToSearchFor === undefined) ||
       (itemToSearchFor !== undefined) && (itemToSearchFor.length === 0)) {
         nidCtrl.nothingFound = true;
+        nidCtrl.found = [];
         return;
       }
 
